@@ -24,14 +24,7 @@ body {
 
 .categories {
     grid-area: categories;
-    border-right: 1px solid #000;
-}
-
-.categories .logo {
-    margin: 30px 0 0 30px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    border-right: 0.5px solid slategray;
 }
 
 .categories h1 {
@@ -71,8 +64,8 @@ body {
 .track-input input,
 .track-input select {
     background-color: white;
-    color: #969696;
-    border: 1px solid #969696;
+    color: black;
+    border: 1px solid slategray;
     border-radius: 3px;
 }
 
@@ -95,7 +88,7 @@ body {
     font-size: 14px;
     margin: 0 30px;
     padding: 8px 5px;
-    border-bottom: 1px solid #969696;
+    border-bottom: 1px solid black;
 }
 
 .track-row__item {
@@ -107,7 +100,7 @@ body {
     grid-template-columns: 35% 35% 15% 10% 0%;
     margin: 0 30px;
     padding: 10px 5px;
-    border-bottom: .5px solid #969696;
+    border-bottom: .5px solid slategray;
 }
 
 .deleteButton {
